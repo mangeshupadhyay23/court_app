@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Begin from './components/Begin';
+import image from './images/back.jpg';
+import './style.css';
 
-class App extends React.Component{
+class Login extends React.Component{
     render(){
         return(
-            <Begin />
+            <div className = "container">HEllo</div>
         );
     }
 }
 
-ReactDOM.render(<App />,document.getElementById('root'));
+ReactDOM.render(<Login />,document.getElementById('root'));

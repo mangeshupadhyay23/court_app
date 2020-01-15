@@ -1,3 +1,5 @@
 body{
-    background-color: white;
+    background-image: url('./images/back_blur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
