@@ -1,0 +1,38 @@
+div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+div.card{
+    display: flex;
+    flex-direction: column;
+}
+div.card-title{
+    font-family: 'Lato',sans-serif;
+    font-size: 64px;
+    text-align: center;
+}
+hr{
+    border-color: grey;
+    width: 200px;
+}
+div.card-body{
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 5px;
+    animation-name: begin;
+    animation-duration: 2s;
+}
+div.card-body:hover{
+    background-color: black;
+    color: white;
+}
+
+@keyframes begin{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
