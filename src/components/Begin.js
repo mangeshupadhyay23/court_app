@@ -10,8 +10,7 @@ class Begin extends React.Component{
                     <div className="card-title">
                         Welcome
                     </div>
-                    <hr />
-                    <div className="card-body">
+                     <div className="card-body">
                         Login
                     </div>
                 </div>

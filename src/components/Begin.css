@@ -20,10 +20,6 @@ div.card-title{
     text-align: center;
     color: white;
 }
-hr{
-    border-color: grey;
-    width: 200px;
-}
 div.card-body{
     margin-top: 15px;
     text-align: center;
