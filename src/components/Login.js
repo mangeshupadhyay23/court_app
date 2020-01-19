@@ -5,9 +5,9 @@ import './Login.css';
 class Login extends React.Component{
     render(){
         return(
-            <div className="container">
-                <div className="card">
-                    <div className="info">
+            <div className="login-container">
+                <div className="login-card">
+                    <div className="login-info">
                         <h1>Welcome User</h1>
                         <form>
                             <input type="text" name="username" placeholder="Username"></input>
@@ -15,7 +15,7 @@ class Login extends React.Component{
                             <input type="password" name="password" placeholder="Password"></input>
                         </form>
                     </div>
-                    <div className="buttons">
+                    <div className="login-buttons">
                         <button>Login</button>
                         <button>Sign Up</button>
                     </div>

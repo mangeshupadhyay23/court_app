@@ -1,14 +1,14 @@
 body{
-    background-image: url('./images/back_blur.jpg');
+    background-image: url('../images/back_blur.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-div.container{
+div.login-container{
     display: flex;
     height: 95vh;
     align-items: center;
 }
-div.card{
+div.login-card{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,8 +16,9 @@ div.card{
     background-color: whitesmoke;
     opacity: 0.8;
     margin-left: 25px;
+    box-shadow: 5px 5px 5px black;
 }
-div.info{
+div.login-info{
     text-align: center;
     margin-bottom: 10px;
 }
@@ -31,7 +32,7 @@ input{
     font-size: 24px;
     text-align: center;
 }
-div.buttons{
+div.login-buttons{
     text-align: center;
 }
 button{
